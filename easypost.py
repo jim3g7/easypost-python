@@ -14,7 +14,7 @@ if not _httplib:
     _httplib = "urllib2"
 
 api_key = "..."
-base_url = 'http://www.easypostapi.com/api'
+base_url = 'https://www.geteasypost.com/api'
 
 headers = {
     'User-Agent': 'EasyPost-Python-v1',
