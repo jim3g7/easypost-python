@@ -13,12 +13,12 @@ if not _httplib:
     import urllib2
     _httplib = "urllib2"
 
-api_key = "LNcz0oYRvwnDulPuI1FF9rv7DscJOQUe"
-base_url = 'http://www.easypost.co/api'
+api_key = "..."
+base_url = 'http://www.easypostapi.com/api'
 
 headers = {
     'User-Agent': 'EasyPost-Python-v1',
-    'Authorization': 'Basic %s' % (base64.b64encode(api_key), )
+    'Authorization': 'Basic %s' % (base64.b64encode(api_key + ':'), )
 }
 
 class EasyPost(object):
